@@ -1,6 +1,6 @@
 {
   "name": "textwithnewlines",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A React Component for turning text with newlines into semantic paragraphs",
   "main": "src/index.js",
   "directories": {
