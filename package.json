@@ -1,12 +1,16 @@
 {
   "name": "textwithnewlines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Component for turning text with newlines into semantic paragraphs",
-  "main": "src/index.js",
+  "main": "dist/textwithnewlines.cjs.js",
+  "module": "dist/textwithnewlines.esm.js",
+  "browser": "dist/textwithnewlines.umd.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "test": "jest --coverage"
   },
   "repository": {
@@ -34,6 +38,10 @@
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "rollup": "^1.27.9",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
