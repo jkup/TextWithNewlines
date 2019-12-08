@@ -1,0 +1,30 @@
+{
+  "name": "textwithnewlines",
+  "version": "0.1.0",
+  "description": "A React Component for turning text with newlines into semantic paragraphs",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkup/TextWithNewlines.git"
+  },
+  "keywords": [
+    "react",
+    "newline",
+    "break",
+    "text",
+    "split",
+    "paragraph"
+  ],
+  "author": "Jon Kuperman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkup/TextWithNewlines/issues"
+  },
+  "homepage": "https://github.com/jkup/TextWithNewlines#readme"
+}
