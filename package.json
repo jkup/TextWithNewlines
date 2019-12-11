@@ -1,6 +1,6 @@
 {
   "name": "textwithnewlines",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A React Component for turning text with newlines into semantic paragraphs",
   "main": "dist/textwithnewlines.cjs.js",
   "module": "dist/textwithnewlines.esm.js",

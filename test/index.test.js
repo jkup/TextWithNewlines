@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-const TextWithNewlines = require("../src/index");
+import TextWithNewlines from "../src/index";
 
 test("Renders multiple paragraphs", () => {
   const testText = `First Paragraph
